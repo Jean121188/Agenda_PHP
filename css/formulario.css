@@ -1,0 +1,14 @@
+/*Formilario CSS*/
+#cad_est{
+	padding: 3px;
+	border-radius: 3px;
+	height:28px;
+	font-size: 20px;
+	border: 1px solid black;
+	font-family: Nobile;
+}
+#formulario fieldset{
+	width:80%;
+	border: 1px solid black;
+	border-radius: 3px;
+}

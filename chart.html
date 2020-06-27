@@ -1,0 +1,45 @@
+  <head>
+    <script type="text/javascript"
+          src="https://www.google.com/jsapi?autoload={
+            'modules':[{
+              'name':'visualization',
+              'version':'1',
+              'packages':['corechart']
+            }]
+          }"></script>
+
+    <script type="text/javascript">
+      google.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Mes', 		'Real', 'Fiscal'],
+          ['Janeiro'	,74942.35,25457.19],
+          ['Fevereiro'	,63643.75,22494.44],
+          ['Marco'		,66491.74,23296.07],
+		  ['Abril'		,61457.60,23579.08],
+		  ['Maio'		,46160.00,18002.20],
+		  ['Junho'		,44575.48,16968.34],
+		  ['Julho'		,0,0],
+		  ['agosto'		,0,0],
+		  ['Setembro'	,0,0],
+		  ['Outubro'	,0,0],
+		  ['Novembro'	,0,0],
+          ['Dezembro'	,0,0]
+        ]);
+
+        var options = {
+          title: 'Rendimento Mensal Real Estrela Produtos Agricolas',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 1000px; height: 500px"></div>
+  </body>

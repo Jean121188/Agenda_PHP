@@ -1,0 +1,65 @@
+/*Estilo CSS*/
+#cab{
+	padding: 3px;
+	font-family: Bangers;
+	font-size:40px;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 5px;
+	background-color:#98FB98;
+}
+#text{
+	padding: 3px;
+	border-radius: 3px;
+	width: 400px;
+	height:28px;
+	font-size: 25px;
+	border: 1px solid black;
+	font-family: Nobile;
+}
+#frase{
+	font-family: Nobile;
+}
+#infos{
+	padding: 2px;
+	border-radius: 3px;
+	font-size: 16px;
+	border: 1px solid black;
+	font-family: Nobile;
+}
+#alterar{
+	margin-left: 100px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color: green;
+}
+#rodape{
+	padding: 5px;
+	border: 2px solid #90EE90;
+	text-align: center;
+	position: relative;
+	top: 240px;
+	font-family: Nobile;
+	border-radius: 3px;
+}
+.clima{
+position: relative;
+left: 800px;
+top: 10;
+}
+.paragrafo{
+position: relative;
+top: -140px;
+font-family: Nobile;
+}
+.UOLWidgetsStyle{
+
+ width: 180px;
+ position: relative;
+ top: -140px;
+ left: 600px;
+}

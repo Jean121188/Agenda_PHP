@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Agenda de Contatos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="javascipt/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="javascipt/jquery-ui.min.js"></script>
+<script type="text/javascript" src="javascipt/script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"></link>
+<link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/estilo.css"></link>
+</head>
+<body>
+	<div id="cab">Agenda de Contatos Estrela</div>
+	<br /><br />
+	
+	<form name="form" class="form" action="php/pesquisa.php">
+		<span id="frase">Digite o Nome do Contato:</span> 
+		<input type="text" name="pesquisa" id="text" />
+		<input type="submit" id="submeter" value="Pesquisar" />
+	</form>
+	<br /><br />
+	<div id="tabs"></div>
+	<br />
+	<input type="button" id="button" class="cadastrar" value="Cadastrar" />
+	<input type="button" id="button" value="Mostrar Tudo" class="alterar" />
+	<input type="button" id="button" value="Excluir" class="excluir" />
+	<p />
+	<div id="home"></div>
+	<div id="cadastro"></div>
+	<div id="alterar"></div>
+	<div id="detalhar"></div>
+	<br /><div id="rodape">
+		<p><b>Estrela Produtos Agrícolas Ltda</b> <br />
+		Rua João Gomes de Lima 16, São Vicente - Telefone(35) 3622-3141 <br />
+		CNPJ: 38.754.917/0001-54 <br />
+		IE: 324.658.467.005 6
+		</p>
+	</div>
+</body>
+</html>
